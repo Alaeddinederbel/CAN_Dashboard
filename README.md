@@ -207,6 +207,4 @@ All three ECU tasks use `HAL_GetTick()` for periodic timing. No `HAL_Delay()` an
 
 ---
 
-## License
-
-MIT — free to use, modify, and distribute.
+Ala Eddine Derbel - Embedded Systems Engineer
