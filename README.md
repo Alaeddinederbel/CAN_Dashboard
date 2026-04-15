@@ -1,9 +1,9 @@
-# CAN Dashboard — STM32F429 Multi-ECU System
+# CAN Dashboard - STM32F429 Multi-ECU System
 
 A CAN bus dashboard system implemented on an STM32F429ZIT6 microcontroller.  
 Three simulated ECUs communicate over a shared CAN bus; a dashboard receiver decodes and displays real-time vehicle data over UART.
 
-The full protocol logic is validated via a **Python software simulation** that runs on any PC without hardware — byte-for-byte compatible with the C firmware.
+The full protocol logic is validated via a **Python software simulation** that runs on any PC without hardware, byte-for-byte compatible with the C firmware.
 
 ---
 
@@ -207,4 +207,4 @@ All three ECU tasks use `HAL_GetTick()` for periodic timing. No `HAL_Delay()` an
 
 ---
 
-Ala Eddine Derbel - Embedded Systems Engineer
+**Ala Eddine Derbel** - *Embedded Systems Engineer*
