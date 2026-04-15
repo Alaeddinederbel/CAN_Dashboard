@@ -75,7 +75,7 @@ CAN_Dashboard/
 
 ## CAN Frame Layout
 
-### ECU1 — Vehicle Status `ID: 0x100  DLC: 4`
+### ECU1 : Vehicle Status `ID: 0x100  DLC: 4`
 
 | Byte | Field       | Type   | Unit  | Notes              |
 |------|-------------|--------|-------|--------------------|
@@ -84,7 +84,7 @@ CAN_Dashboard/
 | 2    | temperature | uint8  | °C    | 0–255              |
 | 3    | indicator   | uint8  | enum  | 0=OFF 1=LEFT 2=RIGHT |
 
-### ECU2 — Engine & Time `ID: 0x200  DLC: 5`
+### ECU2 : Engine & Time `ID: 0x200  DLC: 5`
 
 | Byte | Field     | Type   | Unit | Notes      |
 |------|-----------|--------|------|------------|
@@ -113,7 +113,7 @@ CAN_Dashboard/
 
 ## Getting Started
 
-### Option A — Software simulation (no hardware required)
+### Option A : Software simulation (no hardware required)
 
 ```bash
 # 1. Install dependency
@@ -153,7 +153,7 @@ Dashboard output:
   ╚══════════════════════════════════════════╝
 ```
 
-### Option B — STM32 hardware
+### Option B : STM32 hardware
 
 1. Open STM32CubeIDE and create a new project targeting **STM32F429ZIT6**
 2. Configure peripherals in the `.ioc` file:
